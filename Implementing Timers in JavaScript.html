@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timer</title>
+  </head>
+  <body>
+    <p id="timer"></p>
+    <form>
+      <input type="number" name="timer-value">
+      <button type="submit" id="timer-start">Start</button>
+    </form>
+    <div style="display:flex;flex-direction:column;margin-top:1rem;">
+      <button onclick="delayedNotif()">Press for a delayed notification!</button>
+      <button onclick="intervalicNotif()">Press for intervalic notifications!</button>
+      <button onclick="clearIntervals()">Press to clear the intervals!</button>
+    </div>
+    <script src="./Implementing Timers in JavaScript.js"></script>
+  </body>
+</html>
